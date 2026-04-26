@@ -4,7 +4,7 @@
 
 | Version | Supported |
 |---|---|
-| v1.0.x | âœ… Active |
+| v1.0.x | Active |
 
 ---
 
@@ -12,10 +12,10 @@
 
 **Do not open a public GitHub issue for security vulnerabilities.**
 
-If you discover a vulnerability in the Proof of Alpha Protocol â€” including the smart contracts, oracle bridge specification, or attestation format â€” please report it privately:
+If you discover a vulnerability in the Proof of Alpha Protocol — including the smart contracts, oracle bridge specification, or attestation format — please report it privately:
 
 **Email:** `samuelimbrechtberm@gmail.com`
-**Subject line:** `[SECURITY] Proof of Alpha â€” <brief description>`
+**Subject line:** `[SECURITY] Proof of Alpha — <brief description>`
 
 ### What to include
 
@@ -34,7 +34,7 @@ If you discover a vulnerability in the Proof of Alpha Protocol â€” includin
 | Fix or mitigation | Within 30 days (critical: 7 days) |
 | Public disclosure | After fix is deployed + 30 day grace period |
 
-We follow **coordinated disclosure** â€” we ask that you give us reasonable time to fix before publishing.
+We follow **coordinated disclosure** — we ask that you give us reasonable time to fix before publishing.
 
 ---
 
@@ -42,10 +42,10 @@ We follow **coordinated disclosure** â€” we ask that you give us reasonable
 
 ### In scope
 
-- `contracts/ZNTToken.sol` â€” ERC-20 burn logic, access control
-- `contracts/BuybackBurn.sol` â€” DEX swap, attestation handling
-- `contracts/OracleVerifier.sol` â€” ECDSA verification, anti-replay
-- `contracts/ZPFTreasury.sol` â€” fund management, threshold logic
+- `contracts/ZNTToken.sol` — ERC-20 burn logic, access control
+- `contracts/BuybackBurn.sol` — DEX swap, attestation handling
+- `contracts/OracleVerifier.sol` — ECDSA verification, anti-replay
+- `contracts/ZPFTreasury.sol` — fund management, threshold logic
 - Oracle bridge attestation format (`oracle/attestation_format.md`)
 - Anti-replay mechanism design
 - Signature construction vulnerabilities
@@ -83,9 +83,9 @@ Critical vulnerabilities reported before the program launches will be recognized
 
 Security researchers who responsibly disclose valid vulnerabilities will be credited here.
 
-*(No entries yet â€” v1.0.0 pre-mainnet)*
+*(No entries yet — v1.0.0 pre-mainnet)*
 
 ---
 
-*Proof of Alpha Protocol â€” Security Policy V1.0*
-*Â© 2026 Samuel Esteban Imbrecht Bermudez â€” Zenith Corp*
+*Proof of Alpha Protocol — Security Policy V1.0*
+*© 2026 Samuel Esteban Imbrecht Bermudez — Zenith Corp*
