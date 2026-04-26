@@ -4,7 +4,7 @@
 
 **First defined and implemented by:** Samuel Esteban Imbrecht Bermudez — Zenith Corp
 **Date of origin:** April 27, 2026
-**Canonical implementation:** [ZNT — The Zenith Token](https://github.com/zenith-corp/znt)
+**Canonical implementation:** [ZNT — The Zenith Token](https://github.com/1Alecc/ZNT-Zenith-Token)
 
 ---
 
