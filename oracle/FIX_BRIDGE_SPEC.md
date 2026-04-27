@@ -208,5 +208,5 @@ The internal implementation is private. This document describes the public inter
 
 ---
 
-*FIX Oracle Bridge Specification V1.0 — April 27, 2026*
+*FIX Oracle Bridge Specification V1.1.0 — April 27, 2026*
 *© 2026 Samuel Esteban Imbrecht Bermudez — Zenith Corp*
