@@ -4,7 +4,7 @@
 
 **First defined and implemented by:** Samuel Esteban Imbrecht Bermudez — Zenith Corp
 **Date of origin:** April 27, 2026
-**Canonical implementation:** [ZNT — The Zenith Token](https://github.com/1Alecc/ZNT-Zenith-Token)
+**Canonical implementation:** [ZNT — The Zenith Token](https://github.com/zenith-corp/znt)
 
 ---
 
@@ -86,9 +86,9 @@ proof-of-alpha-protocol/
 
 ---
 
-## The Core Invariants
+## The Core Invariants (V1.1.0)
 
-Any compliant PoA implementation must uphold these invariants:
+Any compliant PoA implementation must uphold all seven invariants:
 
 **1. No self-reporting**
 The entity generating trading performance cannot be the sole source of burn triggers. An independent, regulated third party must verify the performance.
@@ -105,6 +105,12 @@ Each trade record can trigger at most one burn event. Replay protection must be 
 **5. External verification incentive alignment**
 The auditing institution (prop firm, exchange, regulated broker) must be economically incentivized to detect and reject fraud. Their business model must depend on accurate performance verification.
 
+**6. Risk-Adjusted Alpha**
+The burn amount reflects the quality of alpha, not just the quantity of profit. A Quality Multiplier Q = clamp(Calmar / 2.0, 0.5, 1.5) is applied to every burn. Same profit with less risk = more deflation.
+
+**7. Alpha Gate**
+Not all positive P&L qualifies as alpha. A minimum alpha_score ≥ 0.65 (composite of Sharpe, Calmar, consistency, trade count) must be met for the period. Anti-martingale detection is mandatory. Proof of Luck is not Proof of Alpha.
+
 ---
 
 ## Canonical Implementation — ZNT
@@ -120,16 +126,21 @@ ZNT is the first token built on the Proof of Alpha primitive.
 
 ---
 
-## Open Standard
+## Open Standard — The Alpha Market
 
-The Proof of Alpha Protocol is an open standard. Any algorithmic trader with:
-- A verifiable live trading track record
+The Proof of Alpha Protocol is an open standard. ZNT is the canonical implementation, but the standard belongs to anyone who earns it.
+
+Any algorithmic trader with:
+- 3+ months of live verified track record (alpha_score ≥ 0.65)
+- A regulated external auditor (prop firm, licensed broker, or exchange)
 - Access to institutional FIX Protocol infrastructure
 - The technical capability to deploy the oracle bridge
 
-...can implement PoA for their own token using the specifications in this repository.
+...can implement PoA and register as a burn source contributing to ZNT's scarcity.
 
-See [STANDARD.md](STANDARD.md) for the full implementation guide.
+This creates a **verifiable alpha market**: a network where alpha is the commodity, PoA is the verification standard, and ZNT is the token that represents proof that real, risk-adjusted alpha exists across the network.
+
+See [STANDARD.md](STANDARD.md) for the full implementation guide, including the Alpha Gate specification and PoA Data Format v1.0.
 
 ---
 
@@ -167,6 +178,6 @@ If you build on the Proof of Alpha Protocol, reference this repository as the or
 
 ---
 
-*Proof of Alpha Protocol V1.0*
+*Proof of Alpha Protocol V1.1.0*
 *First defined: April 27, 2026*
 *© 2026 Samuel Esteban Imbrecht Bermudez — Zenith Corp*
