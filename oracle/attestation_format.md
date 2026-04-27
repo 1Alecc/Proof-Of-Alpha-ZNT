@@ -132,5 +132,5 @@ Both at once: impossible.
 
 ---
 
-*Attestation Format V1.0 — April 27, 2026*
+*Attestation Format V1.1.0 — April 27, 2026*
 *© 2026 Samuel Esteban Imbrecht Bermudez — Zenith Corp*
