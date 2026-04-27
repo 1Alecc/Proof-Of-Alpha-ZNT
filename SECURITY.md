@@ -84,7 +84,7 @@ Critical vulnerabilities reported before the program launches will be recognized
 Security researchers who responsibly disclose valid vulnerabilities will be credited here.
 
 *(No entries yet — v1.0.0 pre-mainnet)*
-
+*(No entries yet — v1.0.0 pre-mainnet)*
 ---
 
 *Proof of Alpha Protocol — Security Policy V1.1.0*
