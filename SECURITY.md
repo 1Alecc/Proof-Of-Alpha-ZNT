@@ -87,5 +87,5 @@ Security researchers who responsibly disclose valid vulnerabilities will be cred
 
 ---
 
-*Proof of Alpha Protocol — Security Policy V1.0*
+*Proof of Alpha Protocol — Security Policy V1.1.0*
 *© 2026 Samuel Esteban Imbrecht Bermudez — Zenith Corp*
